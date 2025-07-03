@@ -1,34 +1,44 @@
-#  Social Media Backend API
+# Social Media API 
 
-A simple backend RESTful API for a basic **Social Media App** built with **Node.js**, **Express**, **Sequelize**, and **MySQL**.
-
-Users can register, create posts, comment on posts, and more — all through structured and tested API routes.
+This project is a backend RESTful API for a **Social Media App** built using **Node.js**, **Express**, and **Sequelize** with **MySQL** as the database.
 
 ---
 
-## Features
+## 📚 Features
 
-- ✅ User Signup, Update, and Search
-- ✅ Create, Update, Delete Posts
-- ✅ Add Comments on Posts
-- ✅ Bulk Comment Creation
-- ✅ Find or Create Comment
-- ✅ Search Comments by Word
-- ✅ Count Comments Per Post
-- ✅ Get Newest Comments
-- ✅ Sequelize Associations
-- ✅ Error Handling & Validations
+- User signup, update, and search by email
+- Create and delete posts
+- Count post comments
+- Search and update comments
+- Get newest comments
+- Full relational database using Sequelize (Users, Posts, Comments)
 
 ---
 
-##  Tech Stack
+## 🚀 Technologies
 
-- **Backend**: Node.js + Express  
-- **Database**: MySQL  
-- **ORM**: Sequelize  
-- **API Testing**: Postman
+- Node.js
+- Express.js
+- Sequelize ORM
+- MySQL
+- Postman (for API testing)
 
 ---
 
+## 📩 Postman Collection
 
+You can test the full API using this Postman Collection:
 
+📁 [`SocialMediaApp.postman_collection.json`](./SocialMediaApp.postman_collection.json)
+
+Just import it into Postman and start testing the endpoints.
+
+---
+
+## 📦 How to Run the Project
+
+```bash
+git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
+cd YOUR_REPO
+npm install
+npm run dev
